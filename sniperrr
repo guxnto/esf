@@ -34,7 +34,7 @@ s = r.Session()
 productid = None
 mode_time = False
 recent_logs = []
-gitcode = "https://raw.githubusercontent.com/J3ldo/UGC-Sniper/main/main.py"
+gitcode = "https://raw.githubusercontent.com/guxnto/esf/main/sniperrr"
 
 
 def textToColour(text: str):
