@@ -14,7 +14,7 @@ import random
 import string
 
 os.system("cls")
-ctypes.windll.kernel32.SetConsoleTitleW("J3ldo Sniper")
+ctypes.windll.kernel32.SetConsoleTitleW("Glove Sniper")
 
 with open('config.json', "r") as f:
     conf = json.load(f)
@@ -140,8 +140,8 @@ except KeyError:
     os.system("pause")
     exit(1)
 
-print(textToColour(f"[COLOR_LIGHT_BLUE]UGC-Sniper made by: Jeldo#9587 (J3ldo) and ! max#7948 (maxhithere)\n"
-      f"[COLOR_LIGHT_BLUE]Discord server: https://discord.com/invite/3Uvcf8d9aY)"))
+print(textToColour(f"[COLOR_LIGHT_BLUE]UGC-Sniper\n"
+      f"[COLOR_LIGHT_BLUE]Discord server: https://discord.gg/zfkhGnpzQ2)"))
 time.sleep(0.1)
 
 print(textToColour(f"[COLOR_LIGHT_BLUE]Logged in as {user_name}"))
